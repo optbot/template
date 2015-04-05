@@ -10,7 +10,7 @@ Usage
 
 2.  Build `template`:
 
-        $ grunt
+        $ sudo grunt
        
 Details
 ---
