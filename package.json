@@ -1,0 +1,24 @@
+{
+  "name": "template",
+  "version": "0.0.0",
+  "description": "Template for starting a new package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/optbot/template.git"
+  },
+  "keywords": [
+    "template",
+    "optbot"
+  ],
+  "author": "Marshall Farrier",
+  "license": "MIT",
+  "readmeFilename": "README.md",
+  "gitHead": "2c11de9333ca6ba920bd670ad637fdf50f99f323",
+  "devDependencies": {
+    "grunt": "~0.4.5"
+  }
+}
