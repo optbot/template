@@ -8,9 +8,9 @@ Usage
     
         $ npm install
 
-2.  Build `template`:
+2.  Run `template`:
 
-        $ sudo grunt
+        $ sudo npm start
        
 Details
 ---
@@ -24,3 +24,11 @@ To start a new package called `mypackage`:
     $ git init
 
 Then set up the connection to your remote repo on GitHub.
+
+Testing
+---
+    $ npm test
+
+Connects to
+---
+No connections

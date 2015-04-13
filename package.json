@@ -1,11 +1,13 @@
 {
-  "name": "template",
-  "version": "0.0.0",
+  "name": "@optbot/template",
+  "version": "0.0.1",
   "description": "Template for starting a new package",
-  "main": "index.js",
+  "main": "lib/template",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node lib/start.js",
+    "test": "./node_modules/.bin/mocha"
   },
+  "private": true,
   "repository": {
     "type": "git",
     "url": "git://github.com/optbot/template.git"
@@ -16,9 +18,13 @@
   ],
   "author": "Marshall Farrier",
   "license": "MIT",
-  "readmeFilename": "README.md",
-  "gitHead": "2c11de9333ca6ba920bd670ad637fdf50f99f323",
-  "devDependencies": {
-    "grunt": "~0.4.5"
+  "files": [
+    "LICENSE",
+    "README.md",
+    "lib/"
+  ],
+  "dependencies": {
+    "chai": "^2.2.0",
+    "mocha": "^2.2.4"
   }
 }
