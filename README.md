@@ -17,12 +17,12 @@ Usage
 To start a new package called `mypackage`:
 
     $ cd $HOME/workspace
-    $ mkdir mypackage
-    $ rsync -av --progress template/ mypackage --exclude node_modules --exclude .git
-    $ cd mypackage
+    $ mkdir mypackage && cd mypackage
+    $ git clone git@github.com:optbot/template.git .
+    $ rm -rf .git/
     $ git init
 
-Then set up the connection to your remote repo on GitHub.
+Then set up the connection to a blank remote repo on GitHub.
 
 Testing
 ---
