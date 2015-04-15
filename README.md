@@ -18,7 +18,7 @@ To start a new package called `mypackage`:
 
     $ cd $HOME/workspace
     $ mkdir mypackage
-    $ cp template/* template/.gitignore template/.jscsrc mypackage/
+    $ rsync -av --progress template/ mypackage --exclude node_modules --exclude .git
     $ cd mypackage
     $ git init
 
