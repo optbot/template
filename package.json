@@ -19,6 +19,7 @@
   "author": "Marshall Farrier",
   "license": "MIT",
   "files": [
+    "AUTHORS",
     "LICENSE",
     "README.md",
     "lib/"
