@@ -38,8 +38,7 @@ declaration in `package.json` in the dependent service:
 Now you can test that the dependency is getting picked up properly
 by writing in the JavaScript managing the dependent service:
 
-    var template = require('@optbot/template');
-    template();
+    require('@optbot/template');
 
 When you run the code, you should then see the message `Hello from @optbot/template!`
 logged to console.
