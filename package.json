@@ -1,10 +1,11 @@
 {
   "name": "@optbot/template",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "template for starting a new package",
   "main": "lib/start",
   "scripts": {
     "start": "node lib/start.js",
+    "show": "node lib/show.js",
     "test": "./node_modules/.bin/mocha"
   },
   "private": true,
@@ -24,6 +25,10 @@
     "README.md",
     "lib/"
   ],
+  "config": {
+    "host": "localhost",
+    "port": "666"
+  },
   "devDependencies": {
     "chai": "~2.2.0",
     "jscs": "~1.12.0",

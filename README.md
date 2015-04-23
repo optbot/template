@@ -25,6 +25,14 @@ To create a new service called `myservice`:
 
 Then set up the connection to a blank remote repo on GitHub.
 
+#### Configure a service
+An example of how to use configurations is provided in `lib/show.js`.
+Call this script with:
+
+    $ npm run show
+
+Detailed documentation in the [Quichean wiki](http://quichean.wikidot.com/wiki:configuring-services).
+
 #### Dependent code
 To confirm that you are picking up `@optbot` packages in
 dependent code, add the following line to the "dependencies"
