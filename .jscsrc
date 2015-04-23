@@ -1,6 +1,7 @@
 {
-    "preset": "airbnb",
+    "preset": "google",
     "excludeFiles": [
         "node_modules/**"
-    ]
+    ],
+    "requireCamelCaseOrUpperCaseIdentifiers": "ignoreProperties"
 }

@@ -1,8 +1,8 @@
 {
   "name": "@optbot/template",
   "version": "0.0.1",
-  "description": "Template for starting a new package",
-  "main": "lib/template",
+  "description": "template for starting a new package",
+  "main": "lib/start",
   "scripts": {
     "start": "node lib/start.js",
     "test": "./node_modules/.bin/mocha"
