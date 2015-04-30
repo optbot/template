@@ -2,7 +2,7 @@
   "name": "@optbot/template",
   "version": "0.0.2",
   "description": "template for starting a new package",
-  "main": "lib/start",
+  "main": "lib/start.js",
   "scripts": {
     "start": "node lib/start.js",
     "show": "node lib/show.js",
