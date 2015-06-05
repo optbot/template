@@ -18,7 +18,8 @@ Usage
 To create a new service called `myservice`:
 
     $ cd $HOME/workspace
-    $ mkdir myservice && cd myservice
+    $ MY_SERVICE=myservice
+    $ mkdir $MY_SERVICE && cd $MY_SERVICE
     $ git clone git@github.com:optbot/template.git .
     $ rm -rf .git/
     $ git init
